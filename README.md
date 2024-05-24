@@ -1,3 +1,3 @@
 # `fastbot`
 
-FastAPI `x` Chatbot = Fastbot
+FastAPI backend for building a chatbot application.
