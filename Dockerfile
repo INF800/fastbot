@@ -4,7 +4,11 @@ WORKDIR /app
 
 COPY . /app
 
-RUN pip install poetry && poetry install --no-interaction --only main
+RUN pip install poetry
+
+RUN poetry config virtualenvs.create false
+
+RUN poetry install --only main
 
 RUN chmod +x /app/run.sh
 
