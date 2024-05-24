@@ -1,2 +1,3 @@
-# fastbot
-FastAPI x ChatBot = Fastbot
+# `fastbot`
+
+FastAPI `x` Chatbot = Fastbot
