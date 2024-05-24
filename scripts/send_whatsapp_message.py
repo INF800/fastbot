@@ -8,12 +8,12 @@ from dotenv import load_dotenv
 assert load_dotenv()
 
 # Can use either of these tokens
-ACCESS_TOKEN = os.environ["ACCESS_TOKEN"]
-LONG_LIVED_ACCESS_TOKEN = os.environ["LONG_LIVED_ACCESS_TOKEN"]
+ACCESS_TOKEN = os.environ["WA_ACCESS_TOKEN"]
+LONG_LIVED_ACCESS_TOKEN = os.environ["WA_LONG_LIVED_ACCESS_TOKEN"]
 
-PHONE_NUMBER_ID = os.environ["PHONE_NUMBER_ID"]
-RECIPIENT_WAID = os.environ["RECIPIENT_WAID"]
-GRAPH_API_VERSION = os.environ["VERSION"]
+PHONE_NUMBER_ID = os.environ["WA_PHONE_NUMBER_ID"]
+RECIPIENT_WAID = os.environ["WA_RECIPIENT_WAID"]
+GRAPH_API_VERSION = os.environ["WA_VERSION"]
 
 
 url = f"https://graph.facebook.com/{GRAPH_API_VERSION}/{PHONE_NUMBER_ID}/messages"

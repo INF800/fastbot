@@ -8,9 +8,9 @@ from dotenv import load_dotenv
 assert load_dotenv()
 
 
-APP_ID = os.environ["APP_ID"]
-APP_SECRET = os.environ["APP_SECRET"]
-ACCESS_TOKEN = os.environ["ACCESS_TOKEN"]
+APP_ID = os.environ["WA_APP_ID"]
+APP_SECRET = os.environ["WA_APP_SECRET"]
+ACCESS_TOKEN = os.environ["WA_ACCESS_TOKEN"]
 GRAPH_API_VERSION = "v20.0"
 
 url = "https://graph.facebook.com/{graph_api_version}/oauth/access_token"
