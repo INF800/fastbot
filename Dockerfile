@@ -13,3 +13,5 @@ RUN poetry install --only main
 RUN chmod +x /app/run.sh
 
 CMD ["/app/run.sh"]
+
+EXPOSE 5000
