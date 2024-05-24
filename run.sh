@@ -1,2 +1,2 @@
 #!/bin/bash
-poetry run fastapi run fastbot/main.py
+poetry run fastapi run fastbot/main.py --port 8000
