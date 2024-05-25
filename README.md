@@ -9,4 +9,4 @@ FastAPI backend for building a chatbot application.
 
 Fasbot supports multiple usecases. The project by default contains the specific example of [savetax.ai](https://savetax.ai) which uses [form 16 parser](https://github.com/INF800/form16-parser).
 
-<img src="https://github.com/INF800/fastbot/assets/45640029/85cd010f-1fa3-4935-ba6a-af256a4d6b3f" width="270" height="480"/>
+<img src="https://github.com/INF800/fastbot/assets/45640029/71f107a9-4af4-4acc-8838-d4b505eb70e7" width="270" height="480"/>
