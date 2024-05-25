@@ -7,7 +7,7 @@ FastAPI backend for building a chatbot application.
 [![](https://img.shields.io/static/v1?label=Python&message=>=3.10&color=indigo)](https://github.com/INF800/fastbot) <img src="https://img.shields.io/github/stars/INF800/fastbot.svg?style=social&" alt="GitHub stars">
 
 
-Fasbot supports multiple usecases. The project by default contains the specific example of [savetax.ai]([https://savetax.ai](https://whatsapp.savetax.ai/)) using [form 16 parser](https://github.com/INF800/form16-parser).
+Fasbot supports multiple usecases. The project by default contains the specific example of [savetax.ai](https://whatsapp.savetax.ai/) using [form 16 parser](https://github.com/INF800/form16-parser).
 
 
 [Click here for form 16 parser live demo.](https://huggingface.co/spaces/arakesh/form16-parser)
